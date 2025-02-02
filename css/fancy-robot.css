@@ -1,38 +1,224 @@
 .robot-container {
+  margin:65px auto;
+  width: 1200px;
+  height: 100vh;
+  padding: 10px;
+  align-items: center;
 }
 
 .robot-face-shape {
 }
 
+.face{
+  margin-left:5px;
+}
+
 .robot-eye-left {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(#636363,#a2ab58);
+  border: 3px solid slateblue;
 }
 
 .robot-eye-right {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(#a8c0ff,#3f2b96);
+  border: 3px solid blue;
+  border-radius: 75px;
 }
 
 .robot-ear-left {
+  float: left;
+  width: 250px;
+  height: 150px;
+  background-image:url("https://picsum.photos/id/237/200/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  
+  border: 3px solid blue;
 }
 
 .robot-ear-right {
+  float: left;
+  width: 200px;
+  height: 100px;
+  border-radius: 100px / 50px;
+  background-color: violet;
+  border: 3px solid blue;
 }
 
 .robot-nose {
+  float: left;
+  width: 100px;
+  height: 160px;
+  background-color: white;
+  border: 3px solid blue;
+  border-radius: 75px / 100px;
+  
 }
 
 .robot-teeth {
+  position: absolute;
+  top: 230px;
+  width:900px;
+  padding: 10px;
+  height: auto;
+  
 }
 
 .robot-tooth {
+  
+}
+.robot-tooth:nth-child(1){
+  float: left;
+  
+  width: 100px;
+  height: 160px;
+  background-color: white;
+  border: 3px solid blue;
+  border-radius: 75px / 100px;
+}
+.robot-tooth:nth-child(2){
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  border: 3px solid blue;
+  border-radius: 75px;
+}
+.robot-tooth:nth-child(3){
+  float: left;
+  width: 250px;
+  height: 150px;
+  background:linear-gradient(#00f260,#0575e6);
+  border: 3px solid blue;
+}
+.robot-tooth:nth-child(4){
+  float: left;
+  width: 200px;
+  height: 100px;
+  border-radius: 100px / 50px;
+  background-color: white;
+  border: 3px solid blue;
+}
+.robot-tooth:nth-child(5){
+  float: left;
+  width: 100px;
+  height: 160px;
+  background-color: white;
+  border: 3px solid blue;
+  border-radius: 75px / 100px;
+}
+.robot-tooth:nth-child(6){
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: mediumseagreen;
+  border: 3px solid blue;
+}
+.robot-tooth:nth-child(7){
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 3px solid blue;
+  border-radius: 75px;
+}
+.robot-tooth:nth-child(8){
+ float: left;
+  width: 100px;
+  height: 160px;
+  background-color: white;
+  border: 3px solid blue;
+  border-radius: 75px / 100px;
+}
+.robot-tooth:nth-child(9){
+  float: left;
+  width: 150px;
+  height: 200px;
+  background-color: rgba(125, 154, 8, 50%);;
+  border: 3px solid rgb(201, 201, 214);
+}
+.robot-tooth:nth-child(10){
+ float: left;
+  width: 12.5em;
+  height: 100px;
+  border-radius: 100px / 50px;
+  background-color: white;
+  border: 3px solid blue;
+}
+.robot-tooth:nth-child(11){
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 3px solid blue;
+  border-radius: 75px;
+}
+.robot-tooth:nth-child(12){
+  float: left;
+  width: 100px;
+  height: 160px;
+  background: linear-gradient(
+#0f2027,
+#203a43,
+#2c5364);
+  border: 3px solid blue;
+  border-radius: 75px / 100px;
 }
 
 .robot-hair-style {
+  position: absolute;
+  top: 83%;
+  width:900px;
+  padding: 10px;
 }
 
-.robot-hair-one {
+.robot-hair-one{
+ 
 }
 
-.robot-hair-two {
+.robot-hair-two{
+  
 }
 
 .robot-hair-three {
+
+}
+.robot-hair-style div:nth-child(1){
+   float: left;
+  width: 100px;
+  height: 160px;
+  background-color: white;
+  border: 3px solid blue;
+  border-radius: 75px / 100px;
+}
+.robot-hair-style div:nth-child(2){
+  float: left;
+  width: 12.5em;
+  height: 100px;
+  margin-left: 5px;
+  border-radius: 100px / 50px;
+  background-color: tomato;
+  border: 3px solid blue;
+}
+.robot-hair-style div:nth-child(3){
+ float: left;
+ width: 150px;
+ height: 150px;
+ margin-left: 5px;
+ border: 3px solid blue;
+ background: linear-gradient(#12c2e9,#c471ed);
+}
+.robot-hair-style div:nth-child(4){
+  float: left;
+  width: 29%;
+  height: 150px;
+  margin-left: 5px;
+  background:linear-gradient(#ff9966,#ff5e62) ;
+  border: 3px solid dodgerblue;
 }
